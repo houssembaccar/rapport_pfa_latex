@@ -1,0 +1,21 @@
+\chapter*{Conclusion et Perspectives}
+
+Notre projet se situe dans le cadre de l'optimisation du processus de recherche des services Cloud à travers la manipulation des ontologies du Cloud et le calcul de similarité.
+C'est dans cet esprit là que nous allons dresser un bilan de notre travail et présenter quelques perspectives future.
+
+\textbf{Bilan et contributions}
+
+En vue de réaliser l'objectif qu'on s'est imposé , nous avons divisé la charge de travail en plusieurs étapes.
+Nous avons donc procédé à la collecte de documents , articles , théses traitant le sujet ainsi que les projets existants.
+Nous nous sommes donc principalement interessé au fonctionnement du moteur de recherche de services Cloud : "Cloudle " du fait qu'il se base sur la consultation et la manipulation d'une antologie du web.
+Cependant même si "Cloudle" traite la similarité de concepts , il considére les propriétés existantes tel que le stockage mémoire ,la vitesse du processeur comme étant des concepts apparentières ce qui rend la recherche moins performante qu'elle aurait dû être.
+Alors que la recherche avec "Cloudle" repose sur le calcul de similarité entre concepts et sur le raisonnement équivalent et numérique entre les concepts , nous avons décidé de partir sur une approche partiellement différente de celle utilisée par "Cloudle".
+En effet , en plus d'avoir recours à la consultation d'une ontologie du Cloud et du calcul de similarité de concepts , notre approche consiste dans le développement d'un algorithme de recherche qui met au point l'utilisation des similarités des propriétés objet et type de données pour ajouter à la précision et l'efficacité de la recherche pour ainsi obtenir non seulement un procédé de recherche dont les résultats sont précis mais répondent à l'attente des utilisateurs.
+
+Ce projet nous a bénéficier tant sur le plan théorique que pratique.En effet , il nous a permit de nous ouvrir sur de tout nouveaux domaines dont nous ignorions tout qui sont le Cloud Computing et Le web sémantique.
+De plus , nous avons pû renforcer notre maîtrise du language de programmation Java avec lequel nous avons developpé notre application.
+
+\textbf{Perspectives de recherche}
+L'algorithme que nous avons developpé , a été testé à plusieurs reprises sur de diverses ontologies et a donné des résultats très satistfaisant .
+Cependant, nous n'avons pu étudier que les cas d'ontologies à la structure assez simple , ceci dû à la fois au manque de ressources et de temps à notre disposition.
+Cela n'empêche que nous désirons essayer notre algorithme sur des ontologies aux structures beaucoup plus complexes pour comparer les résultats obtenus lors du passage à l'échelle et potentiellement adapter notre travail à l'utilisation dans le marché actuel. 

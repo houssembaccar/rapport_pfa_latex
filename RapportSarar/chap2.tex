@@ -1,0 +1,232 @@
+\chapter{Contribution : Recherche basée sur la similarité} \label{intro}
+%------------------------------------------
+\section{Introduction}
+    La recherche sémantique a pour but de traiter les requêtes de l'utilisateurs selon des liens logiques entre les concepts ou les entités. Il existe plusieurs méthodes et approches avancées pour établir ces liens. Parmis ces méthodes on cite le calcul de la similarité suivant les liens de parneté, les proprietés d'objet et les proprieté de valeurs.
+    Pour appliquer le mécanisme de recherche sémantique basé sur la similarité on doit parcourir tout les éléments de l'ontologie et faire les calculs mathématique nécessaires à fin d'optimiser la précision de la recherche.
+    Dans ce chapire on va introduitre les trois approches théorique de calcul de la similarité.Ensuite on va présenter les algorithmes permettant d'implémenter ces approches.
+
+\section{Recherche basée sur la similarité}
+        Dans la procédure de raisonnement, la similarité entre deux concepts est déterminée en consultant une ontologie du Cloud. Il existe trois méthodes pour la détermination de la similarité qui sont :\\
+		Similarité de concepts, Similarité de la proprieté objet et la Similarité de la proprieté type donnée.
+
+
+    \subsection{Formules mathématiques utilisées}
+
+        \subsubsection{2.2.1.1 similarité de concepts}
+            La similarité usuelle trouve seulement  la correspondance basée sur les chaines  de caractères entre les étiquettes alors que la similarité de concepts calcul la similarité entre les concepts qui ont la même signification mais sont exprimés  de façon différente.\\
+
+
+			$$ sim_{con}(a,b) = | Super(A) \cap Super(B) | / | Super(A) |$$\\
+
+            Où,\\
+            A et B sont les concepts des individus a et b respectivement.\\
+            Super(A) et Super(B) sont l’ensemble des super concepts qui peuvent être atteints à partir des concepts A et B.\\
+            Les étapes de la détermination de la similarité de concepts:
+                 \begin{itemize}
+                    \item[\quad $\bullet$] 1. Considérer les deux individus « a » et « b » pour lesquels la similarité de concepts doit être calculée.
+                    \item[\quad $\bullet$] 2. Compter tous les supers concepts qui peuvent être atteints à partir de chacun des concepts spécifiques « A » et « B » des individus « a » et »b » .
+                    \item[\quad $\bullet$] 3. Déterminer les super concepts qui peuvent être atteints à partir de « A » et « B ».
+    	           \item[\quad $\bullet$] 4. Diviser le résultat de l’étape 3 par le résultat de l’étape 2 (pour l’individu « a » ).
+                 \end{itemize}
+
+
+    \subsubsection{2.2.1.2 Similarité de propriété objet}
+        Les propriétés objets représentent les significations des concepts et fournissent aussi les relations entre les concepts de l’ontologie.\\
+
+
+        $$ sim_{obj}(a,b)=_{(x,y)\cup}Sim(x,y)/|O(a)|$$\\
+
+        Où,\\
+        U={ (x,y) | (a,p,x)   O(a), (b,p,y)     O(b) }\\
+        O(a)  est un ensemble de triplets contenant les propriétés objets des individus a et b
+        U  est l’ensemble des valeurs d’objets avec le prédicat commun p entre les individus « a » et « b » dans chaque triplet 0(a) et 0(b) .\\
+
+        Les étapes de la détermination de la similarité de la propriété objet:\\
+        \begin{itemize}
+
+             \item[\quad $\bullet$]1 Considérer les deux individus « a » et « b » pour lesquels la similarité de concepts doit être calculée.
+             \item[\quad $\bullet$]2 Déterminer O(a) et O(b) qui sont les ensembles de triplets contenant les propriétés objets des individus « a » et « b » respectivement.
+             \item[\quad $\bullet$]3 Déterminer | O(a) | qui est le nombre d’éléments de l’ensemble O(a).
+             \item[\quad $\bullet$]4 Identifier U comme l’ensemble des valeurs d’objets ayant p comme prédicat commun de « a » et « b » dans O(a) et O(b) respectivement.
+             \item[\quad $\bullet$]5 Déterminer sim(x,y) pour toutes les valeurs d’objets identifiés dans l’étape 4.
+             \item[\quad $\bullet$]6 Faire l’addition de tous les résultats individuels obtenus dans l’étape 5.
+             \item[\quad $\bullet$]7 Diviser le résultat de l’étape  6 par le résultat de l’étape 3 (pour l’individu « a »).
+          \end{itemize}
+
+
+
+    \subsubsection{2.2.1.3 Similarité de proprieté de type de donnée}
+        Similarité de la propriété de type de donnée:\\
+        Ces propriétés représentent le contexte des concepts et sont aussi des attributs des concepts dans l’ontologie.\\
+
+		$$ sim_{data}(a,b)=_{(x,y,p)\vee}Comp(x,y,p)/|D(a)|$$\\
+        Où,\\
+
+		V = {(x,y,p) | (a,p,x)	D(a),(b,p,y) D(b)}\\
+		$$ Comp(x,y,p) = 1 - (|x-y|)/ Max_{distance}(x,p)$$
+		$$ Max_{distance}(x,p) = max_{ i I(p)}(| x-i |)$$
+		$$ I(p) = {i |(s,p,i)  Ontology}$$
+		
+
+        D(a) est un ensemble de triplets qui contiennent les propriétés de type de donnée de l’individu « a ».
+        V est l’ensemble des valeurs des types de données ayant p comme prédicat commun des individus « a » et « b ».\\
+
+        3.3.1 Les étapes de la détermination de la similarité de la propriété de type de donnée
+        \begin{itemize}
+
+
+	       \item[\quad $\bullet$]1. Considérer les deux individus « a » et « b » dont la similarité de concepts doit être calculée.
+            \item[\quad $\bullet$]2. Identifier D(a) et D(b) qui sont les ensembles de triplets contenant les propriétés de type de
+ 	      donnée des individus « a » et « b » respectivement.
+	       \item[\quad $\bullet$]3. Déterminer | O(a) | qui est le nombre des éléments de l’ensemble O(a).
+	       \item[\quad $\bullet$]4. Identifier V comme l’ensemble des valeurs d’objets ayant p comme prédicat commun des
+     	individus « a » et « b » dans D(a) et D(b) respectivement.
+            \item[\quad $\bullet$]5. Déterminer Comp(x,y,p) qui est la similarité entre les valeurs « x » et « y » des type de données sur le prédicat commun p.
+            \item[\quad $\bullet$]6. Déterminer la distance maximale qui peut être atteinte en se basant sur la valeur « x ».
+            \item[\quad $\bullet$]7. Utiliser le résultat de l’étape 6 et la distance entre « x » et « y » pour déterminer la similarité entre valeurs des types de données de « a » et de « b ».
+        \end{itemize}
+
+\subsection{Solution algorithmique proposé}
+\subsubsection{2.2.2.1 Similarité de concept}
+
+\begin{algorithm}[H]
+\caption{ Calcul la valeur de la similarité de concepts}
+%\algsetup{indent=2em}
+\begin{algorithmic}[1]
+\State Procedure réel conceptSimilarity(Concept A,Concept B)
+\State $\{$
+\State retourner SuperInterSuper(A,B)/Super(A)
+\State  $\}$
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{ Calcul du nombre de noeuds communs }
+%\algsetup{indent=2em}
+\begin{algorithmic}[1]
+\State Procedure entier SuperInterSuper(Concept A, Concept B)
+\State $\{$
+\State entier supA=Super(A)
+\State entier supB=super(B)
+\If{(supA==1 or supB==1)}
+\State retourner 1
+\EndIf
+\If{(supA==supB)}
+\If{(A==B)}
+\State retourner supA
+\EndIf
+\ElsIf{(supA>supB)}
+\State retourner SuperInterSuper(A->parent,B)
+\Else
+\State retourner SuperInterSuper(A,B->parent)
+\EndIf
+\State $\}$
+\end{algorithmic}
+\end{algorithm}
+				
+				
+        \subsubsection{2.2.2.2 Similarité de propriété d'objet}
+		
+			\begin{algorithm}[H]
+			\caption{ Calcul de la similarité de la propriété objet }
+			%\algsetup{indent=2em}
+			\begin{algorithmic}[1]
+			\State Procedure réel similaritéDePropriétéObjet(Concept A, Concept B)
+            \State $\{$
+            \State réel somme=0
+            \State entier nombreDeProprieteObjetA= nombreDeProprieteObjet(A)
+            \If{(nombreDeProprieteObjetA==0)}
+            \State     retourner 0
+            \State entier nombreProprieteA=A.retournerListeDeProriété.taille()
+            \State entier nombreProprieteB=B.retournerListeDeProriété().taille()
+
+            \State ListeDePropriétés listeDesProprietesA=A.()
+		    \State ListeDePropriétés listeDesProprietesB=B.retournerListeDeProriété()
+		    \State Property proprieteA= new Property()
+		    \State Property proprieteB= new Property()
+		
+		    \For{i=0 to nombreProprieteA}
+			\State proprieteA= listeDesProprietesA[i]
+			
+			\For{j=0 to nombreProprieteB}
+			\State proprieteB=listeDesProprietesB[j]
+			\If{((proprieteA.retournerNom()==proprieteB.retournerNom) and (proprieteB.retournerType()=="objet")}
+			\State somme+=conceptSimilarity(A.retournerParent(),B.retournerParent())
+            \State j++
+			\EndIf
+            \EndFor
+            \State i++
+            \EndFor		
+		\EndIf
+		\State retourner Somme/nombreDeProprieteObjetA
+        \State $\}$
+		\end{algorithmic}
+\end{algorithm}
+
+    \subsubsection{2.2.2.3 Similarité de propriété de données}
+	\begin{algorithm}[H]
+	\caption{ Calcul de la similarité de la propriété type de données }
+	%\algsetup{indent=2em}
+	\begin{algorithmic}[1]
+	\State Procedure réel dataPropertySimilarity(Concept A, Concept B)
+    \State $\{$
+	\State réel somme=0
+	\State entier nombreDesProprietesDeDonneA=numberOfDataProperty(A)
+	\If{(nombreDesProprietesDeDonneA==0)}
+	\State retourner 0
+	\EndIf
+	\State entier nombreDesProprietesA=A.retournerListeDeProriété().taille()
+	\State entier nombreDesProprietesB=B.retournerListeDeProriété().taille()
+	\State ListeDePropriétés listeDesProprietesA=A.retournerListeDeProriété()
+	\State ListeDePropriétés listeDesProprietesB=B.retournerListeDeProriété()
+	\State Property proprieteA= new Property()
+	\State Property proprieteB= new Property()
+	\State réel valeurA=0
+	\State réel valeurB=0
+	\For{i=0 to nombreDesProprietesA}
+    \State proprieteA= listeDesProprietesA[i]
+	\For{j=0 to nombreDesProprietesB}
+	\State proprieteB=listeDesProprietesB[j]
+	\If{((proprieteA.retournerNom()==proprieteB.retournerNom()) and ( proprieteA.retournerType()=="donnée") and (proprieteB.retournerType()=="donnée"))}
+	\State valeurA=proprieteA.retournerValeurs()
+	\State valeurB=proprieteB.retournerValeurs()
+	\State somme+=1-abs(valeurA-valeurB)/max(valeurA,valeurB)
+	\EndIf
+    \State j++
+	\EndFor
+    \State i++	
+	\EndFor
+	\State return somme/nombreDesProprietesDeDonneA;
+	\State $\}$
+	\end{algorithmic}
+\end{algorithm}
+
+
+
+
+
+
+\section{Conclusion}
+    Dans ce chapitre, nous avons abordé les trois approches de recherche par similarité . Ensuite Nous avons accompagné chaque approche théorique de calcul de similarité par l'algorithme d'implémentation correspondant.
+	Finalement , nous avons calculé la complexité de chaque algorithme.
+	Il ne nous reste plus qu’à tester l’efficacité de ces  approches et leur impact sur la précision et la qualité de de la recherche.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,838 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.9)  30 JUN 2014 23:10
+entering extended mode
+**C:/RapportSarar/rapport.tex
+(C:/RapportSarar/rapport.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\RapportSarar\paquets.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen105
+\extrarowheight=\dimen106
+\NC@list=\toks15
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\everycr=\toks16
+\minrowclearance=\skip45
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen107
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen108
+\epsfysize=\dimen109
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen110
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen111
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen112
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks20
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks21
+\eqnshift@=\dimen113
+\alignsep@=\dimen114
+\tagshift@=\dimen115
+\tagwidth@=\dimen116
+\totwidth@=\dimen117
+\lineht@=\dimen118
+\@envbody=\toks22
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\here\here.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks24
+\float@box=\box28
+\@float@everytoks=\toks25
+\@floatcapt=\box29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancybox\fancybox.sty"
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box30
+\shadowsize=\dimen119
+\@Sbox=\box31
+\do@VerbBox=\toks26
+\the@fancyput=\toks27
+\this@fancyput=\toks28
+\EndVerbatimTokens=\toks29
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read2
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\subeqnarray\subeqnarray.sty"
+Package: subeqnarray 2004/04/15 v2.1c subeqnarray package
+\c@subequation=\count102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count103
+\ST@wd=\dimen120
+\ST@rightskip=\skip58
+\ST@leftskip=\skip59
+\ST@parfillskip=\skip60
+\ST@pageleft=\dimen121
+\ST@headht=\dimen122
+\ST@tailht=\dimen123
+\ST@pagesofar=\dimen124
+\ST@pboxht=\dimen125
+\ST@lineht=\dimen126
+\ST@stretchht=\dimen127
+\ST@prevht=\dimen128
+\ST@toadd=\dimen129
+\ST@dimen=\dimen130
+\ST@pbox=\box32
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.sty"
+File: lettrine.sty 2013/03/14 v1.64 (Daniel Flipo)
+\c@DefaultLines=\count104
+\DefaultFindent=\dimen131
+\DefaultNindent=\dimen132
+\DefaultSlope=\dimen133
+\L@lbox=\box33
+\L@tbox=\box34
+\c@L@lines=\count105
+\L@Pindent=\dimen134
+\L@Findent=\dimen135
+\L@Nindent=\dimen136
+\L@lraise=\dimen137
+\L@first=\dimen138
+\L@next=\dimen139
+\L@slope=\dimen140
+\L@height=\dimen141
+\LettrineWidth=\dimen142
+
+Loading lettrine.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count106
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+\skiptotal=\skip61
+\skiplinenumber=\skip62
+\skiprule=\skip63
+\skiphlne=\skip64
+\skiptext=\skip65
+\skiplength=\skip66
+\algomargin=\skip67
+\skipalgocfslide=\skip68
+\algowidth=\dimen143
+\inoutsize=\dimen144
+\inoutindent=\dimen145
+\interspacetitleruled=\dimen146
+\interspacealgoruled=\dimen147
+\interspacetitleboxruled=\dimen148
+\algocf@inoutbox=\box35
+\algocf@inputbox=\box36
+\AlCapSkip=\skip69
+\AlCapHSkip=\skip70
+\algoskipindent=\skip71
+\algocf@nlbox=\box37
+\algocf@hangingbox=\box38
+\algocf@untilbox=\box39
+\algocf@skipuntil=\skip72
+\algocf@capbox=\box40
+\algoheightruledefault=\skip73
+\algoheightrule=\skip74
+\algotitleheightruledefault=\skip75
+\algotitleheightrule=\skip76
+\c@algocfline=\count107
+\c@algocfproc=\count108
+\c@algocf=\count109
+\algocf@algoframe=\box41
+\algocf@algobox=\box42
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count110
+\c@ALG@rem=\count111
+\c@ALG@nested=\count112
+\ALG@tlm=\skip77
+\ALG@thistlm=\skip78
+\c@ALG@Lnr=\count113
+\c@ALG@blocknr=\count114
+\c@ALG@storecount=\count115
+\c@ALG@tmpcounter=\count116
+\ALG@tmplength=\skip79
+)
+\c@rem=\count117
+\c@hyp=\count118
+\c@definition=\count119
+\c@proposition=\count120
+\c@lem=\count121
+)
+\c@montheorem=\count122
+\c@maproposition=\count123
+\c@madefinition=\count124
+\c@manotation=\count125
+\c@moncorollary=\count126
+\c@monlemma=\count127
+\c@monexp=\count128
+
+No file rapport.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen149
+\scratchbox=\box43
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen150
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks31
+) (C:\RapportSarar\pgarde.tex <logo.png, id=1, 136.25906pt x 85.06781pt>
+File: logo.png Graphic file (type png)
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 25.
+(pdftex.def)             Requested size: 85.35826pt x 53.28926pt.
+
+Overfull \hbox (23.31pt too wide) in paragraph at lines 52--53
+ [][] 
+ []
+
+<logo1.png, id=2, 128.73094pt x 59.47218pt>
+File: logo1.png Graphic file (type png)
+ <use logo1.png>
+Package pdftex.def Info: logo1.png used on input line 59.
+(pdftex.def)             Requested size: 51.49146pt x 23.78844pt.
+
+Underfull \vbox (badness 3039) has occurred while \output is active []
+
+ [1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/RapportSarar/logo.png>
+ <C:/RapportSarar/logo1.png>])
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 14.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+No file rapport.toc.
+\tf@toc=\write4
+[1
+
+
+]
+No file rapport.lot.
+\tf@lot=\write5
+[2
+
+]
+No file rapport.lof.
+\tf@lof=\write6
+[3
+
+] (C:\RapportSarar\Remerciement.tex
+Overfull \hbox (2.25818pt too wide) in paragraph at lines 15--16
+[] \T1/cmr/m/n/12 Nous adres-sons nos plus sincères re-mer-ciements à Mon-sie
+ur \T1/cmr/bx/n/12 Em-manuel GROL-
+ []
+
+[1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+) [2] (C:\RapportSarar\Introduction.tex
+
+LaTeX Warning: Citation `1' on page 3 undefined on input line 9.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3
+
+
+
+]
+Underfull \vbox (badness 1748) has occurred while \output is active []
+
+ [4]
+
+LaTeX Warning: Citation `2' on page 5 undefined on input line 24.
+
+
+Overfull \hbox (12.04904pt too wide) in paragraph at lines 19--26
+\T1/cmr/m/n/12 En ef-fet, au lab-o-ra-toire LIAS (\T1/cmr/bx/n/12 L\T1/cmr/m/n/
+12 aboratoire d'\T1/cmr/bx/n/12 I\T1/cmr/m/n/12 nformatique et d'\T1/cmr/bx/n/1
+2 A\T1/cmr/m/n/12 utomatique pour les \T1/cmr/bx/n/12 S\T1/cmr/m/n/12 ystèmes)
+
+ []
+
+
+Underfull \vbox (badness 1748) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 1748) has occurred while \output is active []
+
+ [6])
+[7] (C:\RapportSarar\chap1.tex
+Chapter 1.
+[8
+
+
+
+]
+
+LaTeX Warning: Citation `1' on page 9 undefined on input line 11.
+
+
+LaTeX Warning: Citation `3' on page 9 undefined on input line 11.
+
+
+LaTeX Warning: Citation `4' on page 9 undefined on input line 11.
+
+[9]
+
+LaTeX Warning: Reference `tab1' on page 10 undefined on input line 18.
+
+
+Underfull \hbox (badness 8170) in paragraph at lines 25--26
+[]|\T1/cmr/m/n/12 Orientée Su-jet (Client, Pro-duit,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/cmr/bx/n/12 Principe de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/cmr/m/n/12 Conception re-la-tion-nelle
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 30--30
+[]|$\OMS/cmsy/m/n/12 $\T1/cmr/m/n/12 Détaillées, non agrégées
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\OMS/cmsy/m/n/12 $\T1/cmr/m/n/12 Récentes, mises à jour
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|$\OMS/cmsy/m/n/12 $\T1/cmr/m/n/12 Résumées, re-cal-culées,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\T1/cmr/m/n/12 agrégées    $\OMS/cmsy/m/n/12 $\T1/cmr/m/n/12 Historiques
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]|\T1/cmr/bx/n/12 Organisation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\T1/cmr/bx/n/12 Interaction
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\T1/cmr/m/n/12 Simples, prédéter-minées,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\T1/cmr/m/n/12 Complexes, ad-hoc, spé-ci-fiques,
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 35--35
+[]|\T1/cmr/m/n/12 Courtes et nom-breuses, temps
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\T1/cmr/bx/n/12 Taille de la
+ []
+
+
+Overfull \hbox (14.83766pt too wide) in paragraph at lines 21--39
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+
+LaTeX Warning: Reference `fig1' on page 11 undefined on input line 42.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+<fig1.png, id=66, 596.2275pt x 242.40562pt>
+File: fig1.png Graphic file (type png)
+ <use fig1.png>
+Package pdftex.def Info: fig1.png used on input line 51.
+(pdftex.def)             Requested size: 398.33858pt x 161.95226pt.
+
+
+LaTeX Warning: Citation `5' on page 12 undefined on input line 56.
+
+
+LaTeX Warning: Reference `fig2' on page 12 undefined on input line 56.
+
+<fig2.png, id=67, 443.40656pt x 179.16937pt>
+File: fig2.png Graphic file (type png)
+ <use fig2.png>
+Package pdftex.def Info: fig2.png used on input line 60.
+(pdftex.def)             Requested size: 341.43306pt x 137.97177pt.
+ [12 <C:/RapportSarar/fig1.png>] [13 <C:/RapportSarar/fig2.png>]
+
+LaTeX Warning: Reference `fig3' on page 14 undefined on input line 71.
+
+<fig3.png, id=74, 539.01375pt x 293.59688pt>
+File: fig3.png Graphic file (type png)
+ <use fig3.png>
+Package pdftex.def Info: fig3.png used on input line 75.
+(pdftex.def)             Requested size: 341.43306pt x 185.97946pt.
+ [14 <C:/RapportSarar/fig3.png>]
+
+LaTeX Warning: Citation `6' on page 15 undefined on input line 82.
+
+
+LaTeX Warning: Reference `fig4' on page 15 undefined on input line 84.
+
+<fig4.png, id=81, 246.9225pt x 191.21437pt>
+File: fig4.png Graphic file (type png)
+ <use fig4.png>
+Package pdftex.def Info: fig4.png used on input line 88.
+(pdftex.def)             Requested size: 284.52756pt x 220.34705pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+
+LaTeX Warning: Reference `fig5' on page 16 undefined on input line 92.
+
+
+LaTeX Warning: Citation `3' on page 16 undefined on input line 92.
+
+<fig5.png, id=85, 408.77719pt x 295.1025pt>
+File: fig5.png Graphic file (type png)
+ <use fig5.png>
+Package pdftex.def Info: fig5.png used on input line 102.
+(pdftex.def)             Requested size: 341.43306pt x 246.4975pt.
+
+Underfull \vbox (badness 2237) has occurred while \output is active []
+
+ [16 <C:/RapportSarar/fig4.png>]
+
+LaTeX Warning: Citation `7' on page 17 undefined on input line 106.
+
+
+LaTeX Warning: Citation `8' on page 17 undefined on input line 110.
+
+
+LaTeX Warning: Citation `9' on page 17 undefined on input line 111.
+
+
+LaTeX Warning: Reference `fig6' on page 17 undefined on input line 111.
+
+<fig6.png, id=89, 904.1278pt x 357.58594pt>
+File: fig6.png Graphic file (type png)
+ <use fig6.png>
+Package pdftex.def Info: fig6.png used on input line 114.
+(pdftex.def)             Requested size: 398.33858pt x 157.54018pt.
+ [17 <C:/RapportSarar/fig5.png>]
+
+LaTeX Warning: Citation `17' on page 18 undefined on input line 118.
+
+
+LaTeX Warning: Citation `18' on page 18 undefined on input line 118.
+
+
+LaTeX Warning: Citation `19' on page 18 undefined on input line 118.
+
+
+LaTeX Warning: Citation `10' on page 18 undefined on input line 120.
+
+
+LaTeX Warning: Citation `11' on page 18 undefined on input line 120.
+
+
+LaTeX Warning: Citation `12' on page 18 undefined on input line 120.
+
+
+LaTeX Warning: Citation `13' on page 18 undefined on input line 120.
+
+
+LaTeX Warning: Citation `14' on page 18 undefined on input line 120.
+
+
+LaTeX Warning: Citation `15' on page 18 undefined on input line 120.
+
+
+LaTeX Warning: Citation `16' on page 18 undefined on input line 120.
+
+[18 <C:/RapportSarar/fig6.png>]
+
+LaTeX Warning: Citation `22' on page 19 undefined on input line 127.
+
+
+LaTeX Warning: Reference `fig7' on page 19 undefined on input line 127.
+
+<fig7.png, id=96, 651.93562pt x 389.95688pt>
+File: fig7.png Graphic file (type png)
+ <use fig7.png>
+Package pdftex.def Info: fig7.png used on input line 131.
+(pdftex.def)             Requested size: 312.9803pt x 187.21288pt.
+
+Underfull \vbox (badness 5622) has occurred while \output is active []
+
+ [19]
+
+LaTeX Warning: Reference `fig8' on page 20 undefined on input line 135.
+
+<fig8.png, id=100, 514.92375pt x 210.7875pt>
+File: fig8.png Graphic file (type png)
+ <use fig8.png>
+Package pdftex.def Info: fig8.png used on input line 139.
+(pdftex.def)             Requested size: 256.0748pt x 104.82741pt.
+
+Overfull \hbox (0.38309pt too wide) in paragraph at lines 134--141
+\T1/cmr/m/n/12 d’une ta-ble. Nous stock-ons au-tant de bitmaps que de valeurs
+ dis-tinctes pour l'attribut
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <C:/RapportSarar/fig7.png>]
+
+LaTeX Warning: Citation `13' on page 21 undefined on input line 143.
+
+
+LaTeX Warning: Citation `21' on page 21 undefined on input line 143.
+
+Missing character: There is no � in font cmr8!
+Missing character: There is no � in font cmr8!
+<fig9.png, id=105, 605.26125pt x 271.0125pt>
+File: fig9.png Graphic file (type png)
+ <use fig9.png>
+Package pdftex.def Info: fig9.png used on input line 152.
+(pdftex.def)             Requested size: 284.52756pt x 127.4007pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <C:/RapportSarar/fig8.png>]
+
+LaTeX Warning: Reference `fig9' on page 22 undefined on input line 155.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <C:/RapportSarar/fig9.png>]
+
+LaTeX Warning: Citation `24' on page 23 undefined on input line 178.
+
+
+LaTeX Warning: Citation `25' on page 23 undefined on input line 181.
+
+[23]
+
+LaTeX Warning: Reference `fig10' on page 24 undefined on input line 182.
+
+
+Overfull \hbox (11.2113pt too wide) in paragraph at lines 185--186
+\T1/cmr/m/n/12 phase, nous nous ba-sons sur des mod-èles de coût qui es-ti-me
+nt le temps d'exécution
+ []
+
+<fig10.png, id=117, 513.41812pt x 391.4625pt>
+File: fig10.png Graphic file (type png)
+ <use fig10.png>
+Package pdftex.def Info: fig10.png used on input line 190.
+(pdftex.def)             Requested size: 227.62204pt x 173.55215pt.
+
+
+LaTeX Warning: Citation `26' on page 24 undefined on input line 195.
+
+
+LaTeX Warning: Citation `27' on page 24 undefined on input line 195.
+
+
+LaTeX Warning: Reference `fig11' on page 24 undefined on input line 196.
+
+
+LaTeX Warning: Citation `28' on page 24 undefined on input line 196.
+
+
+LaTeX Warning: Citation `29' on page 24 undefined on input line 196.
+
+
+LaTeX Warning: Citation `30' on page 24 undefined on input line 196.
+
+<fig11.png, id=118, 479.54156pt x 330.48468pt>
+File: fig11.png Graphic file (type png)
+ <use fig11.png>
+Package pdftex.def Info: fig11.png used on input line 199.
+(pdftex.def)             Requested size: 341.43306pt x 235.30637pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <C:/RapportSarar/fig10.png>]
+
+LaTeX Warning: Citation `28' on page 25 undefined on input line 205.
+
+
+LaTeX Warning: Citation `29' on page 25 undefined on input line 205.
+
+
+LaTeX Warning: Reference `fig12' on page 25 undefined on input line 205.
+
+<fig12.png, id=122, 503.63156pt x 447.17062pt>
+File: fig12.png Graphic file (type png)
+ <use fig12.png>
+Package pdftex.def Info: fig12.png used on input line 209.
+(pdftex.def)             Requested size: 341.43306pt x 303.15768pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <C:/RapportSarar/fig11.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+[27 <C:/RapportSarar/fig12.png>]
+
+LaTeX Warning: Reference `2' on page 28 undefined on input line 251.
+
+
+LaTeX Warning: Reference `tab3' on page 28 undefined on input line 251.
+
+[28] [29]
+
+LaTeX Warning: Citation `31' on page 30 undefined on input line 307.
+
+
+LaTeX Warning: Citation `32' on page 30 undefined on input line 307.
+
+
+LaTeX Warning: Citation `28' on page 30 undefined on input line 307.
+
+
+LaTeX Warning: Citation `29' on page 30 undefined on input line 307.
+
+[30]
+Underfull \vbox (badness 3895) has occurred while \output is active []
+
+ [31]
+! Undefined control sequence.
+l.318 ...’équation : $ \alpha j = |D_j| \diagup
+                                                   |F|$ ; sachant que les no...
+
+? 
+! Emergency stop.
+l.318 ...’équation : $ \alpha j = |D_j| \diagup
+                                                   |F|$ ; sachant que les no...
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 4881 strings out of 493921
+ 63453 string characters out of 3147283
+ 152260 words of memory out of 3000000
+ 8072 multiletter control sequences out of 15000+200000
+ 21665 words of font info for 48 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 41i,13n,45p,1176b,326s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

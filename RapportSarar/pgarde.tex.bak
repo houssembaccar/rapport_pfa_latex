@@ -1,0 +1,75 @@
+%\thispagestyle{empty}
+%\begin{titlepage}
+%\begin{center}
+%Manuscrit de these \\
+%{{\bf Spécialité : " Automatique et Robotique"}}
+%\\ \ \\ Préparée au Laboratoire d'Informatique
+%de Robotique et de Microelectronics de Montpellier
+%\\ \ \\ Presentee et soutenue publiquement\\ \ \\
+%par \\ \ \\ {S. DUPONT}
+%\\ \
+%\\{le 20 Avril 2001}
+%\\ \ \\{\LARGE \hrule \ \\ \bf
+%Recherche de sous-structures arborescentes frequentes avec des contraintes d'inclusion floue
+%\\ [3mm] \hrule} \ \\ \ \\
+%{\bf Directeur de these :} aaaaaaaa rrrrrrrrrr\\
+%{\bf Co-Encadrant :} aaaaaaaaaa wwwwwwwww
+%\end{center}
+%\end{titlepage}
+\thispagestyle{empty}
+\begin{center}
+Ministère de l'Enseignement Supérieur et de la Recherche Scientifique\\
+Université de Tunis El Manar \\
+Département Informatique \vskip 0.4cm
+
+			\includegraphics[width=3cm]{en}
+
+%\ \\[-1.3cm]
+%\vskip -1.2cm
+\Large{\textbf{Projet de Fin d'Année}}
+
+ \vskip -1mm
+ présenté par :
+ \vskip -0.4mm
+ \Large \textbf{Baccar Houssem}
+ \vskip -1mm
+ \Large \textbf{Boukthir Aymen}
+ \vskip 4mm
+
+%\centerline{\footnotesize{de} \small{\textbf{l'Ecole Nationale d'Ing\'enieurs de Tunis}}}
+\vskip 1cm
+
+\fbox{
+	\begin{minipage}{17cm}
+\vspace{0.5cm}
+\begin{center}
+{\LARGE  {\textbf {\textit  Mise au point d'un algorithme de recherche des services Clouds bas\'ee sur le calcul de similarit\'e }}}
+ \vskip 0.2cm
+% {\LARGE  { \textbf{\textit{  }}}}
+\end{center}
+\vspace{0.1cm}
+\end{minipage}
+}
+
+\vskip 1cm
+
+\vskip 1cm
+Encadré par:\\
+Mme. Zohra Sbaai \\
+Mme. Rawand Guerfel\\
+\end{center}
+ %\hspace{7cm} Encadré par:
+
+%\begin{tabular}{p{0.5cm}p{2.5cm}p{11cm}}
+%
+%& ~~ &  \qquad \qquad Mr. Sadok Ben Yahia (FST)\\
+%& ~~ &  \qquad \qquad Mr. Ladjel Bellatreche (LIAS)\\
+%
+%\end{tabular}
+
+\vskip 1cm
+\centerline {Année universitaire : 2014-2015}
+%\begin{center}
+%\centerline{Année universitaire : 2013-2014}
+%\end{center}
+%\frontmatter 

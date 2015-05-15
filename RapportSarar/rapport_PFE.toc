@@ -1,0 +1,46 @@
+\select@language {french}
+\contentsline {chapter}{Introduction G\IeC {\'e}n\IeC {\'e}rale}{1}
+\contentsline {chapter}{\numberline {1}\'{E}TAT DE L\IeC {\textquoteright }ART}{3}
+\contentsline {section}{\numberline {1.1}Introduction}{3}
+\contentsline {section}{\numberline {1.2}Concepts Fondamentaux}{3}
+\contentsline {subsection}{\numberline {1.2.1}Cloud Computing}{3}
+\contentsline {subsubsection}{1.2.1.1 D\IeC {\'e}finition et apport}{3}
+\contentsline {subsubsection}{1.2.1.2 Architecture du Cloud}{6}
+\contentsline {subsubsection}{1.2.1.3Types de D\IeC {\'e}ploiment}{8}
+\contentsline {subsection}{\numberline {1.2.2}Ontologies}{9}
+\contentsline {subsubsection}{1.2.2.1 D\IeC {\'e}finition}{9}
+\contentsline {subsubsection}{1.2.2.2 Environnements de d\IeC {\'e}veloppement d\IeC {\textquoteright }ontologie}{10}
+\contentsline {subsubsection}{1.2.2.3 Langages de d\IeC {\'e}veloppement d\IeC {\textquoteright }ontologies}{10}
+\contentsline {subsubsection}{1.2.2.4 OWL}{10}
+\contentsline {section}{\numberline {1.3}Recherche bas\IeC {\'e}e sur l'ontologie et travaux existants }{11}
+\contentsline {section}{\numberline {1.4}Conclusion}{12}
+\contentsline {chapter}{\numberline {2}Contribution : Recherche bas\IeC {\'e}e sur la similarit\IeC {\'e}}{13}
+\contentsline {section}{\numberline {2.1}Introduction}{13}
+\contentsline {section}{\numberline {2.2}Recherche bas\IeC {\'e}e sur la similarit\IeC {\'e}}{13}
+\contentsline {subsection}{\numberline {2.2.1}Formules math\IeC {\'e}matiques utilis\IeC {\'e}es}{13}
+\contentsline {subsubsection}{2.2.1.1 similarit\IeC {\'e} de concepts}{13}
+\contentsline {subsubsection}{2.2.1.2 Similarit\IeC {\'e} de propri\IeC {\'e}t\IeC {\'e} objet}{14}
+\contentsline {subsubsection}{2.2.1.3 Similarit\IeC {\'e} de propriet\IeC {\'e} de type de donn\IeC {\'e}e}{15}
+\contentsline {subsection}{\numberline {2.2.2}Solution algorithmique propos\IeC {\'e}}{16}
+\contentsline {subsubsection}{2.2.2.1 Similarit\IeC {\'e} de concept}{16}
+\contentsline {subsubsection}{2.2.2.2 Similarit\IeC {\'e} de propri\IeC {\'e}t\IeC {\'e} d'objet}{17}
+\contentsline {subsubsection}{2.2.2.3 Similarit\IeC {\'e} de propri\IeC {\'e}t\IeC {\'e} de donn\IeC {\'e}es}{18}
+\contentsline {section}{\numberline {2.3}Conclusion}{18}
+\contentsline {chapter}{\numberline {3}Impl\IeC {\'e}mentation}{19}
+\contentsline {section}{\numberline {3.1}Introduction}{19}
+\contentsline {section}{\numberline {3.2}Outils de d\IeC {\'e}veloppement}{19}
+\contentsline {subsection}{\numberline {3.2.1}Environnement de d\IeC {\'e}veloppement et \IeC {\'e}diteurs}{19}
+\contentsline {subsection}{\numberline {3.2.2}Langages de programmation}{20}
+\contentsline {subsection}{\numberline {3.2.3}Autres outils}{20}
+\contentsline {section}{\numberline {3.3}Conception}{20}
+\contentsline {subsection}{\numberline {3.3.1}Diagramme des cas d'utilisation}{20}
+\contentsline {subsection}{\numberline {3.3.2}Diagramme de s\IeC {\'e}quences de point de vue syst\IeC {\`e}me}{21}
+\contentsline {subsection}{\numberline {3.3.3}Diagramme de s\IeC {\'e}quences d\IeC {\'e}taill\IeC {\'e}}{22}
+\contentsline {section}{\numberline {3.4}R\IeC {\'e}alisation et tests}{23}
+\contentsline {subsection}{\numberline {3.4.1}Module de l'extraction des donn\IeC {\'e}es}{23}
+\contentsline {subsection}{\numberline {3.4.2}Mod\IeC {\'e}le MVC}{24}
+\contentsline {subsection}{\numberline {3.4.3}Tests et validation}{25}
+\contentsline {subsubsection}{Extraction des donn\IeC {\'e}es}{26}
+\contentsline {subsubsection}{Tests des requ\IeC {\^e}tes}{26}
+\contentsline {section}{\numberline {3.5}Conclusion}{29}
+\contentsline {chapter}{Conclusion et Perspectives}{30}

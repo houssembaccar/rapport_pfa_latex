@@ -1,0 +1,61 @@
+\chapter*{Annexe A : Charge utilisée pour l’expérimentation de notre stratégie de sélection des IJB}
+\markboth{Annexe}{}
+\textbf{Q1} - select sum(lo\_extendedprice*lo\_discount) as revenue from lineorder, dates where lo\_orderdate = d\_datekey and d\_year = 1993 and lo\_discount >= 1 and lo\_discount <= 3 and lo\_quantity < 25 \\
+
+\textbf{Q2} - select count(*) from lineorder, dates where lo\_orderdate = d\_datekey and d\_year = 1993 and lo\_discount >= 1 and lo\_discount <= 3 and lo\_quantity < 25 \\
+
+\textbf{Q3} - select sum(lo\_extendedprice*lo\_discount) as revenue from lineorder, dates where lo\_orderdate = d\_datekey and d\_year = 1993 \\
+
+\textbf{Q4} - select count(*) from lineorder, dates where lo\_orderdate = d\_datekey and d\_year = 1993 \\
+
+\textbf{Q5} - select sum(lo\_revenue), d\_year from lineorder, dates, part, supplier where lo\_orderdate = d\_datekey and lo\_partkey = p\_partkey and lo\_suppkey = s\_suppkey and p\_brand = 'MFGR\#2221' and s\_region = 'ASIA' group by d\_year order by d\_year \\
+
+\textbf{Q6 }- select sum(lo\_revenue) from lineorder, part where lo\_partkey = p\_partkey and p\_brand = 'MFGR\#2221' \\
+
+\textbf{Q7} - select avg(lo\_revenue), d\_year from lineorder, dates, part, supplier where lo\_orderdate = d\_datekey and lo\_partkey = p\_partkey and lo\_suppkey = s\_suppkey and p\_brand = 'MFGR\#2221' and s\_region = 'ASIA' group by d\_year order by d\_year \\
+
+\textbf{Q8} - select sum(lo\_revenue), d\_year from lineorder, dates, part, supplier where lo\_orderdate = d\_datekey and lo\_partkey = p\_partkey and lo\_suppkey = s\_suppkey and p\_brand = 'MFGR\#2221' and s\_region = 'EUROPE' group by d\_year, p\_brand order by d\_year, p\_brand \\
+
+\textbf{Q9} - select sum(lo\_revenue) from lineorder, part, supplier where lo\_partkey = p\_partkey and lo\_suppkey = s\_suppkey and p\_brand = 'MFGR\#2221' and s\_region = 'EUROPE' \\
+
+\textbf{Q10} - select count(*), d\_year from lineorder, dates, part, supplier where lo\_orderdate = d\_datekey and lo\_partkey = p\_partkey and lo\_suppkey = s\_suppkey and p\_brand = 'MFGR\#2221' and s\_region = 'EUROPE' group by d\_year order by d\_year \\
+
+\textbf{Q11} - select c\_nation, s\_nation, d\_year, sum(lo\_revenue) as revenue from lineorder,customer,  supplier, dates where lo\_custkey = c\_custkey and lo\_suppkey = s\_suppkey and lo\_orderdate = d\_datekey and c\_region = 'ASIA' and s\_region = 'ASIA' and d\_year >= 1992 and d\_year <= 1997 group by c\_nation, s\_nation, d\_year order by d\_year asc, revenue desc \\
+
+\textbf{Q12 }- select s\_nation, sum(lo\_revenue) as revenue from lineorder, supplier where lo\_suppkey = s\_suppkey and s\_region = 'ASIA' group by s\_nation order by revenue desc \\
+
+\textbf{Q13} - select s\_nation, count(*) as revenue from lineorder, supplier where lo\_suppkey = s\_suppkey and s\_region = 'ASIA' group by s\_nation order by revenue desc \\
+
+\textbf{Q14} - select s\_nation, d\_year, sum(lo\_revenue) as revenue from lineorder, supplier, dates where lo\_suppkey = s\_suppkey and lo\_orderdate = d\_datekey and s\_region = 'ASIA' and d\_year >= 1992 and d\_year <= 1997 group by s\_nation, d\_year order by d\_year asc, revenue desc \\
+
+\textbf{Q15} - select c\_nation, s\_nation, d\_year, avg(lo\_revenue) as avg\_revenue from lineorder,customer,  supplier, dates where lo\_custkey = c\_custkey and lo\_suppkey = s\_suppkey and lo\_orderdate = d\_datekey and c\_region = 'ASIA' and s\_region = 'ASIA' and d\_year >= 1992 and d\_year <= 1997 group by c\_nation, s\_nation, d\_year order by d\_year asc, avg\_revenue desc \\
+
+\textbf{Q16} - select c\_nation, s\_nation, d\_year, count(*) from lineorder,customer,  supplier, dates where lo\_custkey = c\_custkey and lo\_suppkey = s\_suppkey and lo\_orderdate = d\_datekey and c\_region = 'ASIA' and s\_region = 'ASIA' and d\_year >= 1992 and d\_year <= 1997 group by c\_nation, s\_nation, d\_year order by d\_year asc \\
+
+\textbf{Q17} - select c\_city, s\_city, d\_year, sum(lo\_revenue) as revenue from lineorder,customer,  supplier, dates where lo\_custkey = c\_custkey and lo\_suppkey = s\_suppkey and lo\_orderdate = d\_datekey and c\_nation = 'UNITED STATES' and s\_nation = 'UNITED STATES' and d\_year >= 1992 and d\_year <= 1997 group by c\_city, s\_city, d\_year order by d\_year asc, revenue desc \\
+
+\textbf{Q18} - select s\_city, sum(lo\_revenue) as revenue from lineorder, supplier where lo\_suppkey = s\_suppkey and s\_nation = 'UNITED STATES' group by s\_city order by revenue desc \\
+
+\textbf{Q19} - select s\_city, avg(lo\_revenue) as avg\_revenue from lineorder, supplier where lo\_suppkey = s\_suppkey and s\_nation = 'UNITED STATES' group by s\_city order by avg\_revenue desc \\
+
+\textbf{Q20} - select c\_city, s\_city, count(*) from lineorder,customer,  supplier where lo\_custkey = c\_custkey and lo\_suppkey = s\_suppkey and c\_nation = 'UNITED STATES' and s\_nation = 'UNITED STATES' group by c\_city, s\_city \\
+
+\textbf{Q21} - select c\_city, s\_city, d\_year, avg(lo\_revenue) as avg\_revenue from  lineorder,customer, supplier, dates where lo\_custkey = c\_custkey and lo\_suppkey = s\_suppkey and lo\_orderdate = d\_datekey and c\_nation = 'UNITED STATES' and s\_nation = 'UNITED STATES' and d\_year >= 1992 and d\_year <= 1997 group by c\_city, s\_city, d\_year order by d\_year asc, avg\_revenue desc \\
+
+\textbf{Q22} - select c\_city, s\_city, d\_year, count(*) from lineorder,customer,  supplier, dates where lo\_custkey = c\_custkey and lo\_suppkey = s\_suppkey and lo\_orderdate = d\_datekey and c\_nation = 'UNITED STATES' and s\_nation = 'UNITED STATES' and d\_year >= 1992 and d\_year <= 1997 group by c\_city, s\_city, d\_year order by d\_year asc \\
+
+\textbf{Q23 }- select d\_year, s\_nation, p\_category, sum(lo\_revenue - lo\_supplycost) as profit from lineorder,dates, customer, supplier, part  where lo\_custkey = c\_custkey and lo\_suppkey = s\_suppkey and lo\_partkey = p\_partkey and lo\_orderdate = d\_datekey and c\_region = 'AMERICA' and s\_region = 'AMERICA' and (d\_year = 1997 or d\_year = 1998) and (p\_mfgr = 'MFGR\#1' or p\_mfgr = 'MFGR\#2') group by d\_year, s\_nation, p\_category order by d\_year, s\_nation, p\_category \\
+
+\textbf{Q24} - select d\_year, s\_nation, p\_category, sum(lo\_revenue - lo\_supplycost) as profit from lineorder, dates, supplier, part  where lo\_suppkey = s\_suppkey and lo\_partkey = p\_partkey and lo\_orderdate = d\_datekey and s\_region = 'AMERICA' and (d\_year = 1997 or d\_year = 1998) and (p\_mfgr = 'MFGR\#1' or p\_mfgr = 'MFGR\#2') group by d\_year, s\_nation, p\_category order by d\_year, s\_nation, p\_category \\
+
+\textbf{Q25} - select d\_year, s\_nation, p\_category, avg(lo\_revenue - lo\_supplycost) as avg\_profit from lineorder, dates, customer, supplier, part   where lo\_custkey = c\_custkey and lo\_suppkey = s\_suppkey and lo\_partkey = p\_partkey and lo\_orderdate = d\_datekey and c\_region = 'AMERICA' and s\_region = 'AMERICA' and (d\_year = 1997 or d\_year = 1998) and (p\_mfgr = 'MFGR\#1' or p\_mfgr = 'MFGR\#2') group by d\_year, s\_nation, p\_category order by d\_year, s\_nation, p\_category \\
+
+\textbf{Q26} - select d\_year, s\_nation, p\_category, count(*) from lineorder, dates, customer, supplier, part  where lo\_custkey = c\_custkey and lo\_suppkey = s\_suppkey and lo\_partkey = p\_partkey and lo\_orderdate = d\_datekey and c\_region = 'AMERICA' and s\_region = 'AMERICA' and (d\_year = 1997 or d\_year = 1998) and (p\_mfgr = 'MFGR\#1' or p\_mfgr = 'MFGR\#2') group by d\_year, s\_nation, p\_category order by d\_year, s\_nation, p\_category \\
+
+\textbf{Q27} - select d\_year, s\_nation, count(*) from  lineorder,dates, supplier  where lo\_suppkey = s\_suppkey and lo\_orderdate = d\_datekey and s\_region = 'AMERICA' and (d\_year = 1997 or d\_year = 1998) group by d\_year, s\_nation order by d\_year, s\_nation \\
+
+\textbf{Q28} - select s\_nation, count(*) from lineorder,supplier   where lo\_suppkey = s\_suppkey and s\_region = 'AMERICA' group by s\_nation order by s\_nation \\
+
+\textbf{Q29} - select d\_year, s\_nation, sum(lo\_revenue) as revenue from lineorder,dates, supplier   where lo\_suppkey = s\_suppkey and lo\_orderdate = d\_datekey and s\_region = 'AMERICA' and (d\_year = 1997 or d\_year = 1998) group by d\_year, s\_nation order by d\_year, s\_nation \\
+
+\textbf{Q30} - select sum(lo\_revenue), p\_brand from lineorder, part, supplier where lo\_partkey = p\_partkey and lo\_suppkey = s\_suppkey and p\_brand = 'MFGR\#2221' and s\_region = 'ASIA' group by p\_brand order by p\_brand

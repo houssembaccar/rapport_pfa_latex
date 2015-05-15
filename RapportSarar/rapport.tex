@@ -1,0 +1,47 @@
+\documentclass[12pt,a4paper,twoside]{report} %PDFLATEX
+%---------------- Preambule -----------
+\usepackage{paquets}
+\newtheorem{montheorem}{Théorème}[chapter]
+\newtheorem{maproposition}{Proposition}[chapter]
+\newtheorem{madefinition}{Définition}[chapter]
+\newtheorem{manotation}{Notation}[chapter]
+\newtheorem{moncorollary}{Corollaire}[chapter]
+\newtheorem{monlemma}{Lemme}[chapter]
+\newtheorem{monexp}{Exemple}[chapter]
+%--------------------------------------
+\begin{document}
+\definecolor{myblue}{rgb}{0.62,0.50,0.94}
+\include{pgarde}
+\pagenumbering{roman}
+\tableofcontents
+%\addcontentsline{toc}{chapter}{Introduction Générale}
+\listoftables
+\listoffigures
+\newpage %\thispagestyle{empty} \vspace*{5mm} \newpage
+\pagenumbering{arabic}
+%--------------------------------------
+\include{Remerciement}
+\addcontentsline{toc}{chapter}{Introduction Générale}
+\include{Introduction}
+\include{chap1}
+\include{chap2}
+\include{chap3}
+%\include{chap4}
+%\include{chap31}
+%\include{chap32}
+%\include{chap4}
+\addcontentsline{toc}{chapter}{Conclusion Générale}
+\include{Conclusion}
+%--------------------------------------
+%\addcontentsline{toc}{chapter}{Bibliographie}
+
+\addcontentsline{toc}{chapter}{Bibliographie}
+\bibliographystyle{alpha}
+\bibliography{bib}
+
+%\bibliographystyle{plain}
+%\bibliography{bib}
+%\addtocontents{toc}{
+%\contentsline{chapter}{\numberline{ }Bibliographie}{\thepage}
+%}
+\end{document} 

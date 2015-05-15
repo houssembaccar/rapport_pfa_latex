@@ -1,0 +1,94 @@
+%------------------------------------------------------------
+% CHARGEMENT DES PACKAGES NECESSAIRES ET DEFINITIONS
+%------------------------------------------------------------
+\usepackage[T1]{fontenc}
+%\usepackage{times}
+%\usepackage{ tlsflyleaf }
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{color}
+%\usepackage[utf8]{inputenc}
+%\usepackage[french]{babel}
+%\usepackage{overpic}
+%\usepackage{amssymb}
+%\usepackage{amsmath,upref}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{epsfig}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{here}
+\usepackage{lscape}
+\usepackage{fancybox}
+\usepackage{fancyhdr}
+\usepackage{subeqnarray}
+\usepackage{supertabular}
+\usepackage{multirow}
+\usepackage{lettrine}
+\usepackage{epsfig}
+\usepackage{algorithm2e}
+%\usepackage{algorithm}
+\usepackage{algorithmicx}
+%\usepackage{listings}
+%\usepackage{algpseudocode}
+%\usepackage[latin1]{inputenc}
+%\usepackage{subfigure,relsize}
+%\usepackage{algorithm}
+%----------------------- Definition des marges ---------------------
+\setlength{\parindent}{0pt} \setlength{\hoffset}{-1.5cm}
+\setlength{\oddsidemargin}{1.1cm} % Marge gauche sur pages impaires 1.2
+\setlength{\evensidemargin}{1.1cm} % Marge gauche sur pages paires 0.6
+\setlength{\marginparwidth}{54pt} % Largeur de note dans la marge
+\setlength{\textwidth}{16.8cm} % Largeur de la zone de texte (17cm)
+\setlength{\voffset}{-1.5cm} % Bon pour DOS
+\setlength{\marginparsep}{7pt} % Separation de la marge
+\setlength{\topmargin}{0pt} % Pas de marge en haut
+\setlength{\headheight}{13pt} % Haut de page
+\setlength{\headsep}{1cm} % Entre le haut de page et le texte
+\setlength{\footskip}{1.5cm} % Pied de page + separation
+\setlength{\topskip}{0cm} % Pied de page + separation
+\setlength{\textheight}{23.4cm} % Hauteur de la zone de texte
+\setlength{\headwidth}{\textwidth}
+%------------ l'interlignage ------------------------------
+%\setlength{\baselineskip}{15pt} \small\normalsize
+\renewcommand{\baselinestretch}{1.8} \small \normalsize
+\setcounter{tocdepth}{2} % Profondeur de la table des matieres
+%----------------------------
+%\newenvironment{alphalist}[2][]%
+%{\begin{flushleft}[\Alph]}
+%{\end{flushleft}}
+%--- ent^ete et pied de page [ version RECTO ]------------------
+%\lhead{}
+%\chead{}
+%\rhead{\includegraphics[height=0.9cm]{./figures/biped/rabbit-sch.pdf}}
+%
+%\lfoot{\scriptsize \it Quelques contributions a la commande non linéaire des robots marcheurs bipédes sous-actionnés}
+%\cfoot{}
+%\rfoot{\thepage}
+%
+%\renewcommand{\headrulewidth}{1pt}
+%-- ent^ete et pied de page [ version RECTO-VERSO ]----------
+\pagestyle{fancy}
+%% en-t^ete de page % O : impaire E : paire
+\fancyhead{} \fancyhead[LO]{\footnotesize \sffamily \nouppercase{\leftmark}}
+\fancyhead[CO]{} \fancyhead[RO,LE]{ } \fancyhead[RE]{\footnotesize \sffamily\nouppercase{\rightmark}} \fancyhead[CE]{}
+%% pied de page
+\fancyfoot[LO]{\footnotesize \it Conception et réalisation d’une application web pour la gestion d’une boutique d’opticien}
+\fancyfoot[RE]{\small \it Nabil Biad} \fancyfoot[RO,LE]{\thepage}
+\fancyfoot[CO]{} \fancyfoot[CE]{}
+\renewcommand{\headrulewidth}{0.9pt}
+%-------------------------------------------------------------------
+\newtheorem{rem}{\bf Remarque}
+\newtheorem{hyp}{\bf Hypothèse}
+\newtheorem{definition}{\bf Définition}
+\newtheorem{proposition}{\bf Proposition}
+\newtheorem{lem}{\bf Lemme}
+%------------------- Definition de nouvelles commandes ----------------
+\def\rref#1{{\rm (\ref{#1})}}
+\newcommand\mR{\mathbb{R}}
+\newcommand{\defeq}{:=}
+\newcommand{\mat}[1]{\begin{pmatrix}
+#1
+\end{pmatrix}}
+
+%--------------------------------

@@ -1,0 +1,108 @@
+
+\documentclass[12pt,a4paper ]{report}
+%\usepackage{paquets}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{listings}
+\usepackage{algpseudocode}
+%\newtheorem{theorem}{Théorème}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{overpic}
+\usepackage{fancybox}
+\usepackage{here}
+\usepackage{setspace}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+\usepackage[Glenn]{fncychap} %Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage{fancyhdr}
+\usepackage{lettrine}
+\newtheorem{montheorem}{Théorème}[chapter]
+\newtheorem{maproposition}{Proposition}[chapter]
+\newtheorem{madefinition}{Définition}[chapter]
+\newtheorem{manotation}{Notation}[chapter]
+\newtheorem{moncorollary}{Corollaire}[chapter]
+\newtheorem{monlemma}{Lemme}[chapter]
+\newtheorem{monexp}{Exemple}[chapter]
+\title{Étude des mécanismes de reprise après panne sous ordonnancements équitables $(PD^{2})$}
+\author{Diallo Mamadou Gando}
+\date{25 juin 2014}
+
+
+\begin{document}
+%\maketitle
+\onehalfspacing
+\pagestyle{fancy}
+%\renewcommand\headrulewidth{1pt}
+%\fancyhead[L]{Projet de fin d'étude}
+%\fancyhead[R]{Laboratoire d'informatique et d'automatique pour les systèmes }
+%\fancyfoot[L]{Diallo Mamadou Gando}
+%\fancyfoot[R]{\today}
+\fancyhead{} \fancyhead[LO]{\footnotesize \sffamily \nouppercase{\leftmark}}
+\fancyhead[CO]{} \fancyhead[RO,LE]{ } \fancyhead[RE]{\footnotesize \sffamily\nouppercase{\rightmark}} \fancyhead[CE]{}
+%% pied de page
+\fancyfoot[LO]{\footnotesize \it Mise au point d'un algorithme de recherche des services Clouds bas\'ee sur le calcul de similarit\'e}
+\fancyfoot[RE]{\small \it Baccar & Boukthir} \fancyfoot[RO,LE]{\thepage}
+\fancyfoot[CO]{} \fancyfoot[CE]{}
+\renewcommand{\headrulewidth}{0.9pt}
+%-------------------------------------------------------------------
+\newtheorem{rem}{\bf Remarque}
+\newtheorem{hyp}{\bf Hypothèse}
+\newtheorem{definition}{\bf Définition}
+\newtheorem{proposition}{\bf Proposition}
+\newtheorem{lem}{\bf Lemme}
+%------------------- Definition de nouvelles commandes ----------------
+\def\rref#1{{\rm (\ref{#1})}}
+\newcommand\mR{\mathbb{R}}
+\newcommand{\defeq}{:=}
+\newcommand{\mat}[1]{\begin{pmatrix}
+#1
+\end{pmatrix}}
+%% pied de page
+
+%remerciement
+
+% la structuration d'un document
+\include{pgarde}
+\pagenumbering{roman}
+\include{Remerciement}
+%\include{Dedicace}
+%\include{Acronyme}
+\tableofcontents
+%\addcontentsline{toc}{chapter}{Introduction Générale}
+\listoftables
+\listoffigures
+\newpage %\thispagestyle{empty} \vspace*{5mm} \newpage
+\pagenumbering{arabic}
+%--------------------------------------
+%\addcontentsline{toc}{chapter}{Remerciement}
+\addcontentsline{toc}{chapter}{Introduction Générale}
+\include{Introduction}
+\include{chap1}
+\include{chap2}
+\include{chap3}
+
+\addcontentsline{toc}{chapter}{Conclusion et Perspectives}
+\include{Conclusion}
+%--------------------------------------
+%\addcontentsline{toc}{chapter}{Bibliographie}
+
+\addcontentsline{toc}{chapter}{Bibliographie}
+\bibliographystyle{alpha}
+\nocite{*}
+\bibliography{bib}
+\addcontentsline{toc}{chapter}{Annexe}
+%\include{Annexe}
+
+
+\end{document} 
